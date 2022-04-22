@@ -1,0 +1,19 @@
+{
+  "name": "sib_hapi-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadekframa/Hapi-Framework-Web-Server.git"
+  },
+  "author": "Kadek Frama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadekframa/Hapi-Framework-Web-Server/issues"
+  },
+  "homepage": "https://github.com/kadekframa/Hapi-Framework-Web-Server#readme"
+}
