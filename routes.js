@@ -37,8 +37,16 @@ const routes = [
             if(lang === 'id'){
                 return `Hai, ${name}!`;
             }
-            
+
             return `Hello, ${name}!`;
+        }
+    },
+    {
+        method: 'POST',
+        path: '/login',
+        handler: (request, h) => {
+            const { username, password } = request.payload;
+            return `Welcome ${username}!`;
         }
     },
     {
